@@ -131,6 +131,10 @@ input[type="submit"]:active { background-position: 0 -105px; }
   background: url(../../piston/images/honeycomb_tile.jpg);
 }
 
+#header.airframe {
+  background: url(../../piston/images/airframe-bg-main.jpg);
+}
+
 h1 {
   margin: -3px 0 0 15px;
   float: left;
@@ -142,6 +146,10 @@ h1 a{
   width: 227px;
   float: left;
   display: block;
+}
+
+h1.airframe a{
+  background: url(../../piston/images/airframe-dash-logo.png) no-repeat left !important;
 }
 
 #main_nav {
