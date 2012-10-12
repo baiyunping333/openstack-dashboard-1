@@ -187,8 +187,21 @@ h1.airframe a{
   -webkit-transition:all .2s ease;
   -o-transition:all .2s ease;
 }
-#main_nav li a.active { border-top: 5px solid #D03229; }
-#main_nav li a:hover { background-color: rgba(0, 0, 0, 0.1); }
+
+
+#main_nav li a.active {
+  border-top: 5px solid #D03229;
+}
+#main_nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.airframe #main_nav li a {
+  color:#4A7BBA;
+}
+.airframe #main_nav li a.active {
+  border-top: 5px solid #ABC8ED;
+}
 
 .pentos_update a{
   border-top: 5px solid #00a389 !important;
