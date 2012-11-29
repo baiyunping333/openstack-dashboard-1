@@ -427,6 +427,7 @@ label.refreshOption {
 /* Main Content */
 
 #main {
+  min-height: 500px;
   width: 100%;
   float: left;
 }
